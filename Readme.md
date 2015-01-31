@@ -2,8 +2,8 @@
 Simple webapp for collecting some restaurant suggestions around berlin and track our weekly restaurant visits.
 
 #Setup and Run
-spring-boot:run
-http://localhost:8080/gourmetgorillas/
++ spring-boot:run
++ http://localhost:8080/gourmetgorillas/
 
 # ToDos
 ## Model
