@@ -8,7 +8,7 @@
 * CalendarWeek
 * Pictures
 
-### Model for DinnerSuggestions
+### Model for Dinner Suggestions
 * RestaurantName
 * District
 * RestaurantType
