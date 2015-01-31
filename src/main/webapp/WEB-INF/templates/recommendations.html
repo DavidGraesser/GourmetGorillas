@@ -9,12 +9,12 @@
 <div th:fragment="content">
     <h1>Restaurant-Vorschläge Übersicht</h1>
     <table>
-        <tr th:each="dinnerSuggestion : ${dinnerSuggestions}">
-            <td>Test</td>
-            <td th:text="${dinnerSuggestion.restaurantName}">Example Restaurant</td>
+        <tr th:each="recommendation : ${recommendations}">
+            <td># </td>
+            <td th:text="${recommendation.restaurantName}">Example Restaurant</td>
         </tr>
     </table>
-    <a th:href="@{/dinnersuggestion}">Neuen Restaurantvorschlag hinzufügen</a>
+    <a th:href="@{/recommendation}">Neuen Restaurantvorschlag hinzufügen</a>
 </div>
 </body>
 </html>

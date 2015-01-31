@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class WelcomeController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView showIndexPage(){
-        ModelAndView modelAndView = new ModelAndView("welcome");
+        ModelAndView modelAndView = new ModelAndView("index");
         modelAndView.addObject("message","Welcome to GourmetGorillas");
         return modelAndView;
     }

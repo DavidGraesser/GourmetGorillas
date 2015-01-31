@@ -1,14 +1,12 @@
 import de.gyrosit.Application;
-import de.gyrosit.model.DinnerSuggestion;
-import de.gyrosit.repository.DinnerSuggestionRepository;
+import de.gyrosit.model.RestaurantRecommendation;
+import de.gyrosit.repository.RestaurantRecommendationRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
-
-import java.util.List;
 
 /**
  * Created by dave on 11.01.15.
@@ -19,18 +17,18 @@ import java.util.List;
 public class DinnerSuggestionsRepositoryTest {
 
     @Autowired
-    DinnerSuggestionRepository dinnerSuggestionRepository;
+    RestaurantRecommendationRepository restaurantRecommendationRepository;
 
     @Test
     public void testStore(){
-        DinnerSuggestion dinnerSuggestion = new DinnerSuggestion();
+        RestaurantRecommendation dinnerSuggestion = new RestaurantRecommendation();
         dinnerSuggestion.setRestaurantName("Test");
 
-        dinnerSuggestionRepository.save(dinnerSuggestion);
+        restaurantRecommendationRepository.save(dinnerSuggestion);
 
-        Iterable<DinnerSuggestion> dinnerSuggestionList = dinnerSuggestionRepository.findAll();
+        Iterable<RestaurantRecommendation> dinnerSuggestionList = restaurantRecommendationRepository.findAll();
 
-        for (DinnerSuggestion suggestion : dinnerSuggestionList) {
+        for (RestaurantRecommendation suggestion : dinnerSuggestionList) {
             System.out.println(suggestion.getRestaurantName());
         }
 

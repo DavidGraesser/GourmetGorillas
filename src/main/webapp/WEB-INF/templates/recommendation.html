@@ -7,12 +7,12 @@
 </head>
 <body>
 <div th:fragment="content">
-    <h1>Form</h1>
+    <h1>Neuer Vorschlag</h1>
 
-    <form action="#" th:action="@{/dinnersuggestion}" th:object="${dinnerSuggestion}" method="post">
-        <p>Restaurant: <input type="text" th:field="*{restaurantName}"/> <span
-                th:if="${#fields.hasErrors('restaurantName')}" th:errors="*{restaurantName}">Name Error</span></p>
-
+    <form action="#" th:action="@{/recommendation}" th:object="${recommendation}" method="post">
+        <p>Restaurant: <input type="text" th:field="*{restaurantName}"/>
+            <span th:if="${#fields.hasErrors('restaurantName')}" th:errors="*{restaurantName}">Name Error</span>
+        </p>
         <p><input type="submit" value="Submit"/> <input type="reset" value="Reset"/></p>
     </form>
 </div>
