@@ -1,6 +1,6 @@
 # ToDos
 ## Model
-### Model for actual Dinner
+### Model for Actual Dinner
 * RestaurantName
 * District
 * RestaurantType
@@ -35,28 +35,3 @@ http://kdubblabs.com/2014/02/spring-boot-simple-configuration/
 
 With Forms
 http://kielczewski.eu/2014/04/spring-boot-mvc-application/
-
-Bezirke
-Friedrichshain
-Hellersdorf
-Hohenschönhausen
-Köpenick
-Lichtenberg
-Marzahn
-Mitte
-Pankow
-Prenzlauer Berg
-Treptow
-Weißensee
-Charlottenburg
-Kreuzberg
-Neukölln
-Reinickendorf
-Schöneberg
-Spandau
-Steglitz
-Tempelhof
-Tiergarten
-Wedding
-Wilmersdorf
-Zehlendorf
