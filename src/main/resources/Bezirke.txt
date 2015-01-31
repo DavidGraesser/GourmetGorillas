@@ -1,0 +1,23 @@
+Friedrichshain
+Hellersdorf
+Hohenschönhausen
+Köpenick
+Lichtenberg
+Marzahn
+Mitte
+Pankow
+Prenzlauer Berg
+Treptow
+Weißensee
+Charlottenburg
+Kreuzberg
+Neukölln
+Reinickendorf
+Schöneberg
+Spandau
+Steglitz
+Tempelhof
+Tiergarten
+Wedding
+Wilmersdorf
+Zehlendorf
